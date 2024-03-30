@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 style="font-size: 52" ; align="center"> Standard Algorithm Simulator </h1>
+  <p id="arrayDisplay"></p>
+
+  <body onload="displayArray()"></body>
+  <button onclick="bubbleSort()">Bubble Sort!!!</button>
+  <p></p>
+  <label for="searchQuery">Search Query: </label>
+  <input type="text" id="searchQuery" placeholder="Enter a number">
+  <button onclick="binarySearch(searchQuery)">Search</button>
+  <p id="inputError"></p>
+  <p id='searchResult'></p>
+
+  <button onclick="randomise(simArray1)">Randomise!!!</button>
+
+  <script src="script.js">
+  </script>
+</body>
+
+</html>
